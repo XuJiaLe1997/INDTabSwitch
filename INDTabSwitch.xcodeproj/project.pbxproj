@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		159AB1CB251CB6CC00850404 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 159AB1CA251CB6CC00850404 /* AppDelegate.m */; };
+		159AB1D1251CB6CC00850404 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 159AB1D0251CB6CC00850404 /* ViewController.m */; };
+		159AB1D4251CB6CC00850404 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 159AB1D2251CB6CC00850404 /* Main.storyboard */; };
+		159AB1D6251CB6CE00850404 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 159AB1D5251CB6CE00850404 /* Assets.xcassets */; };
+		159AB1D9251CB6CE00850404 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 159AB1D7251CB6CE00850404 /* LaunchScreen.storyboard */; };
+		159AB1DC251CB6CE00850404 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 159AB1DB251CB6CE00850404 /* main.m */; };
+		15EF23F2251D7AE000991DDB /* INDTabSwitchDemoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 15EF23E6251D7AE000991DDB /* INDTabSwitchDemoVC.m */; };
+		15EF23F3251D7AE000991DDB /* INDTabSwitchDemoVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15EF23E7251D7AE000991DDB /* INDTabSwitchDemoVC.xib */; };
+		15EF23F4251D7AE000991DDB /* INDTabSwitchCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 15EF23EE251D7AE000991DDB /* INDTabSwitchCell.m */; };
+		15EF23F5251D7AE000991DDB /* INDTabSwitchCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15EF23EF251D7AE000991DDB /* INDTabSwitchCell.xib */; };
+		15EF23F6251D7AE000991DDB /* INDTabSwitchView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15EF23F0251D7AE000991DDB /* INDTabSwitchView.xib */; };
+		15EF23F7251D7AE000991DDB /* INDTabSwitchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 15EF23F1251D7AE000991DDB /* INDTabSwitchView.m */; };
+		15EF2401251D902900991DDB /* UITextView+Attributed.m in Sources */ = {isa = PBXBuildFile; fileRef = 15EF2400251D902900991DDB /* UITextView+Attributed.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		159AB1C6251CB6CC00850404 /* INDTabSwitch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = INDTabSwitch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		159AB1C9251CB6CC00850404 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		159AB1CA251CB6CC00850404 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		159AB1CF251CB6CC00850404 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		159AB1D0251CB6CC00850404 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		159AB1D3251CB6CC00850404 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		159AB1D5251CB6CE00850404 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		159AB1D8251CB6CE00850404 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		159AB1DA251CB6CE00850404 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		159AB1DB251CB6CE00850404 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		15EF23E6251D7AE000991DDB /* INDTabSwitchDemoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INDTabSwitchDemoVC.m; sourceTree = "<group>"; };
+		15EF23E7251D7AE000991DDB /* INDTabSwitchDemoVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = INDTabSwitchDemoVC.xib; sourceTree = "<group>"; };
+		15EF23E8251D7AE000991DDB /* INDTabSwitchDemoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INDTabSwitchDemoVC.h; sourceTree = "<group>"; };
+		15EF23E9251D7AE000991DDB /* INDTabSwitchHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INDTabSwitchHeader.h; sourceTree = "<group>"; };
+		15EF23EB251D7AE000991DDB /* INDTabSwitchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INDTabSwitchView.h; sourceTree = "<group>"; };
+		15EF23ED251D7AE000991DDB /* INDTabSwitchCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INDTabSwitchCell.h; sourceTree = "<group>"; };
+		15EF23EE251D7AE000991DDB /* INDTabSwitchCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INDTabSwitchCell.m; sourceTree = "<group>"; };
+		15EF23EF251D7AE000991DDB /* INDTabSwitchCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = INDTabSwitchCell.xib; sourceTree = "<group>"; };
+		15EF23F0251D7AE000991DDB /* INDTabSwitchView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = INDTabSwitchView.xib; sourceTree = "<group>"; };
+		15EF23F1251D7AE000991DDB /* INDTabSwitchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INDTabSwitchView.m; sourceTree = "<group>"; };
+		15EF23FF251D902900991DDB /* UITextView+Attributed.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITextView+Attributed.h"; sourceTree = "<group>"; };
+		15EF2400251D902900991DDB /* UITextView+Attributed.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITextView+Attributed.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		159AB1C3251CB6CC00850404 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		159AB1BD251CB6CC00850404 = {
+			isa = PBXGroup;
+			children = (
+				159AB1C8251CB6CC00850404 /* INDTabSwitch */,
+				159AB1C7251CB6CC00850404 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		159AB1C7251CB6CC00850404 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				159AB1C6251CB6CC00850404 /* INDTabSwitch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		159AB1C8251CB6CC00850404 /* INDTabSwitch */ = {
+			isa = PBXGroup;
+			children = (
+				15EF23E4251D7AE000991DDB /* tabSwitch */,
+				159AB1C9251CB6CC00850404 /* AppDelegate.h */,
+				159AB1CA251CB6CC00850404 /* AppDelegate.m */,
+				159AB1CF251CB6CC00850404 /* ViewController.h */,
+				159AB1D0251CB6CC00850404 /* ViewController.m */,
+				159AB1D2251CB6CC00850404 /* Main.storyboard */,
+				159AB1D5251CB6CE00850404 /* Assets.xcassets */,
+				159AB1D7251CB6CE00850404 /* LaunchScreen.storyboard */,
+				159AB1DA251CB6CE00850404 /* Info.plist */,
+				159AB1DB251CB6CE00850404 /* main.m */,
+			);
+			path = INDTabSwitch;
+			sourceTree = "<group>";
+		};
+		15EF23E4251D7AE000991DDB /* tabSwitch */ = {
+			isa = PBXGroup;
+			children = (
+				15EF23EA251D7AE000991DDB /* class */,
+				15EF23E5251D7AE000991DDB /* demo */,
+				15EF23E9251D7AE000991DDB /* INDTabSwitchHeader.h */,
+			);
+			path = tabSwitch;
+			sourceTree = "<group>";
+		};
+		15EF23E5251D7AE000991DDB /* demo */ = {
+			isa = PBXGroup;
+			children = (
+				15EF23FE251D900300991DDB /* util */,
+				15EF23E8251D7AE000991DDB /* INDTabSwitchDemoVC.h */,
+				15EF23E6251D7AE000991DDB /* INDTabSwitchDemoVC.m */,
+				15EF23E7251D7AE000991DDB /* INDTabSwitchDemoVC.xib */,
+			);
+			path = demo;
+			sourceTree = "<group>";
+		};
+		15EF23EA251D7AE000991DDB /* class */ = {
+			isa = PBXGroup;
+			children = (
+				15EF23EC251D7AE000991DDB /* INDTabSwitchCell */,
+				15EF23EB251D7AE000991DDB /* INDTabSwitchView.h */,
+				15EF23F1251D7AE000991DDB /* INDTabSwitchView.m */,
+				15EF23F0251D7AE000991DDB /* INDTabSwitchView.xib */,
+			);
+			path = class;
+			sourceTree = "<group>";
+		};
+		15EF23EC251D7AE000991DDB /* INDTabSwitchCell */ = {
+			isa = PBXGroup;
+			children = (
+				15EF23ED251D7AE000991DDB /* INDTabSwitchCell.h */,
+				15EF23EE251D7AE000991DDB /* INDTabSwitchCell.m */,
+				15EF23EF251D7AE000991DDB /* INDTabSwitchCell.xib */,
+			);
+			path = INDTabSwitchCell;
+			sourceTree = "<group>";
+		};
+		15EF23FE251D900300991DDB /* util */ = {
+			isa = PBXGroup;
+			children = (
+				15EF23FF251D902900991DDB /* UITextView+Attributed.h */,
+				15EF2400251D902900991DDB /* UITextView+Attributed.m */,
+			);
+			path = util;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		159AB1C5251CB6CC00850404 /* INDTabSwitch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 159AB1DF251CB6CE00850404 /* Build configuration list for PBXNativeTarget "INDTabSwitch" */;
+			buildPhases = (
+				159AB1C2251CB6CC00850404 /* Sources */,
+				159AB1C3251CB6CC00850404 /* Frameworks */,
+				159AB1C4251CB6CC00850404 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = INDTabSwitch;
+			productName = INDTabSwitch;
+			productReference = 159AB1C6251CB6CC00850404 /* INDTabSwitch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		159AB1BE251CB6CC00850404 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = guangzhuiyuandev;
+				TargetAttributes = {
+					159AB1C5251CB6CC00850404 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+				};
+			};
+			buildConfigurationList = 159AB1C1251CB6CC00850404 /* Build configuration list for PBXProject "INDTabSwitch" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 159AB1BD251CB6CC00850404;
+			productRefGroup = 159AB1C7251CB6CC00850404 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				159AB1C5251CB6CC00850404 /* INDTabSwitch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		159AB1C4251CB6CC00850404 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				159AB1D9251CB6CE00850404 /* LaunchScreen.storyboard in Resources */,
+				15EF23F3251D7AE000991DDB /* INDTabSwitchDemoVC.xib in Resources */,
+				15EF23F5251D7AE000991DDB /* INDTabSwitchCell.xib in Resources */,
+				159AB1D6251CB6CE00850404 /* Assets.xcassets in Resources */,
+				15EF23F6251D7AE000991DDB /* INDTabSwitchView.xib in Resources */,
+				159AB1D4251CB6CC00850404 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		159AB1C2251CB6CC00850404 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15EF23F7251D7AE000991DDB /* INDTabSwitchView.m in Sources */,
+				159AB1D1251CB6CC00850404 /* ViewController.m in Sources */,
+				15EF23F2251D7AE000991DDB /* INDTabSwitchDemoVC.m in Sources */,
+				15EF2401251D902900991DDB /* UITextView+Attributed.m in Sources */,
+				159AB1CB251CB6CC00850404 /* AppDelegate.m in Sources */,
+				15EF23F4251D7AE000991DDB /* INDTabSwitchCell.m in Sources */,
+				159AB1DC251CB6CE00850404 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		159AB1D2251CB6CC00850404 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				159AB1D3251CB6CC00850404 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		159AB1D7251CB6CE00850404 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				159AB1D8251CB6CE00850404 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		159AB1DD251CB6CE00850404 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		159AB1DE251CB6CE00850404 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		159AB1E0251CB6CE00850404 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QKTV9SRKWZ;
+				INFOPLIST_FILE = INDTabSwitch/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.guangzhuiyuan.INDTabSwitch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		159AB1E1251CB6CE00850404 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QKTV9SRKWZ;
+				INFOPLIST_FILE = INDTabSwitch/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.guangzhuiyuan.INDTabSwitch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		159AB1C1251CB6CC00850404 /* Build configuration list for PBXProject "INDTabSwitch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				159AB1DD251CB6CE00850404 /* Debug */,
+				159AB1DE251CB6CE00850404 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		159AB1DF251CB6CE00850404 /* Build configuration list for PBXNativeTarget "INDTabSwitch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				159AB1E0251CB6CE00850404 /* Debug */,
+				159AB1E1251CB6CE00850404 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 159AB1BE251CB6CC00850404 /* Project object */;
+}

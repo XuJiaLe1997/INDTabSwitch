@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="INDTabSwitchDemoVC">
+            <connections>
+                <outlet property="containerView" destination="LdX-aQ-yE9" id="PhN-42-vNy"/>
+                <outlet property="logLabel" destination="pMd-20-ChD" id="Lse-6J-pi9"/>
+                <outlet property="logTextView" destination="3a2-Cq-ago" id="79R-1Q-rO8"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Via-Tr-2od">
+                    <rect key="frame" x="186.5" y="0.0" width="2" height="667"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="2" id="qcd-Bb-TS2"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LdX-aQ-yE9">
+                    <rect key="frame" x="0.0" y="313.5" width="375" height="40"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="Mgt-no-9cF"/>
+                    </constraints>
+                </view>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="3a2-Cq-ago">
+                    <rect key="frame" x="0.0" y="403.5" width="375" height="263.5"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jzx-pM-PaA">
+                    <rect key="frame" x="278" y="20" width="77" height="30"/>
+                    <state key="normal" title="切换数据源"/>
+                    <connections>
+                        <action selector="changeDataSource:" destination="-1" eventType="touchUpInside" id="S0r-T1-8E9"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Debug log" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pMd-20-ChD">
+                    <rect key="frame" x="152.5" y="253.5" width="70.5" height="30"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="fKz-Q1-Mlg"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+            <constraints>
+                <constraint firstItem="3a2-Cq-ago" firstAttribute="top" secondItem="LdX-aQ-yE9" secondAttribute="bottom" constant="50" id="2fy-gL-Ye5"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="3a2-Cq-ago" secondAttribute="trailing" id="2hn-WE-US2"/>
+                <constraint firstItem="LdX-aQ-yE9" firstAttribute="top" secondItem="pMd-20-ChD" secondAttribute="bottom" constant="30" id="COI-yx-Mz8"/>
+                <constraint firstItem="Via-Tr-2od" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" id="Jaq-Sv-Bsk"/>
+                <constraint firstItem="pMd-20-ChD" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="LcS-Q3-M0E"/>
+                <constraint firstItem="jzx-pM-PaA" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" constant="20" id="OYT-xD-o8E"/>
+                <constraint firstItem="Via-Tr-2od" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="Rh0-sU-v6b"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="jzx-pM-PaA" secondAttribute="trailing" constant="20" id="bc7-86-3dT"/>
+                <constraint firstItem="LdX-aQ-yE9" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="ce2-ib-3VP"/>
+                <constraint firstItem="LdX-aQ-yE9" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" id="jQW-zQ-OWu"/>
+                <constraint firstItem="3a2-Cq-ago" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" id="kDE-pd-NSI"/>
+                <constraint firstItem="LdX-aQ-yE9" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="pAv-yt-9bf"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="LdX-aQ-yE9" secondAttribute="trailing" id="pOn-RR-Lgb"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="bottom" secondItem="3a2-Cq-ago" secondAttribute="bottom" id="sCC-rc-5JP"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="bottom" secondItem="Via-Tr-2od" secondAttribute="bottom" id="x7a-Av-fhK"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
+            <point key="canvasLocation" x="132" y="104"/>
+        </view>
+    </objects>
+</document>
